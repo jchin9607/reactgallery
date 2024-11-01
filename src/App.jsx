@@ -11,7 +11,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Delayed waitBeforeShow={600}>
+      <Delayed waitBeforeShow={800}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
